@@ -1,0 +1,49 @@
+.tablesupersuper {
+    border: 0.08em solid rgb(27, 119, 211);
+    width: fit-content;
+}
+
+.tablesuper {
+    width: fit-content;
+    border: rgb(219, 217, 217) 0.3em outset;
+    border-top: 0.3em solid white;
+    border-left: 0.3em solid white;
+}
+
+.table{
+    display: flex;
+    flex-direction:column;
+    width: fit-content;
+    margin: 1em;
+    border: 0.1em solid rgb(27, 119, 211);
+}
+
+.rowheader{
+    border: 0,08em;
+}
+
+.rowheader, .row1, .row2, .row3{
+    display: flex;
+}
+
+.rowheader{
+    background-color: darkgreen;
+    color: rgb(121, 232, 134);
+    text-align: center;
+}
+
+.row1, .row3{
+background-color: lightgoldenrodyellow;
+}
+
+.row2{
+    background-color: rgb(99, 172, 148);
+}
+
+.cell{
+    border: 0.1em solid rgb(27, 119, 211);
+    box-shadow: inset -0.2em 0 0.05em -0.1em white,
+                inset 0 -0.2em 0.05em -0.1em white;
+    width: 7em;
+    text-align: center;
+}
